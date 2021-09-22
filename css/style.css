@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Whitney,Helvetica Neue,Helvetica,Arial,sans-serif;;
+}
+ 
+.clearfix:after {
+  content: '';
+  display: table;
+  clear: both;
+}
+
+.button a{
+  color: black;
+  font-size: 14px;
+  font-weight: 600;
+  background-color: white;
+  padding: 10px 16px;
+  border-radius: 24px;
+  
+}
+
+/* header */
+header {
+  position: fixed;
+  width: 100%;
+  background-color: rgb(49,97,224);
+}
+
+.box {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 64px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+}
+
+.logo {
+  width: 20%;
+  float: left;
+  vertical-align: middle;
+}
+
+.logo img {
+  vertical-align: middle;
+}
+
+.bar {
+  width: 60%;
+  float: left;
+  text-align: center;
+}
+
+.but {
+  width: 10%;
+  float: right;
+}
+
+a {
+  color: white;
+  font-size: 14px;
+  text-align: center;
+  text-decoration: none;
+  padding-right: 32px;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+/* jumbotron */
+.jumbotron {
+  position: relative;
+  width: 100vw;
+  height: 500px;
+  background-image: url('../img/jumbo.png');
+  background-size: cover;
+  
+}
+
+.jumbo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+h1 {
+  font-size: 3vw;
+  margin-bottom: 24px
+}
+
+.jumbo>p {
+  font-size: 1vw;
+  margin-bottom: 50px;
+}
+
+.btn a {
+  font-size: 16px;
+  padding: 16px 24px;
+  margin-right: 24px;
+}
+
+
+
+.btn a:last-child {
+  color: white;
+  background-color: rgb(35,39,42);
+}
