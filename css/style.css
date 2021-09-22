@@ -158,6 +158,10 @@ h2 {
   background-color: #f6f6f6;
 }
 
+.wave {
+  margin-bottom: -5px;
+}
+
 .wave-2 img {
   transform: scaleY(-1);
 }
