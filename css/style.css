@@ -124,12 +124,26 @@ h1 {
 }
 
 /* main */
+.container {
+  width: 100%;
+}
 
 section {
   width: 60%;
   margin: 0 auto ;
 }
 
+.color {
+  background-color: #f6f6f6;
+}
+
+.wave {
+  margin-bottom: -5px;
+}
+
+.wave-2 img {
+  transform: scaleY(-1);
+}
 .image, .text {
   float: left;
 }
@@ -154,21 +168,9 @@ h2 {
   text-align: center;
 }
 
-.color {
-  background-color: #f6f6f6;
-}
-
-.wave {
-  margin-bottom: -5px;
-}
-
-.wave-2 img {
-  transform: scaleY(-1);
-}
-
 .end {
   text-align: center;
-  margin-bottom: 10%;
+  margin-bottom: 48px;
 }
 
 .last-text {
@@ -183,3 +185,59 @@ h2 {
 }
 
 /* footer */
+footer {
+  width: 100%;
+  height: 700px;
+  background-color: rgb(35,39,42);
+  color: white;
+}
+
+.foot {
+  float: left;
+  width: 19%;
+  margin-left: 1%;
+  margin-top: 80px;
+}
+
+h4, h5 {
+  color: rgb(105,126,198);
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: 800;
+  margin-bottom: 24px;
+}
+
+h5 {
+  font-size: 18px;
+}
+
+.foot>p {
+  font-size: 14px;
+  margin: 12px 20px 0 0 ;
+}
+
+.imm img{
+  width: 20px;
+  height: 12px;
+}
+
+.icon {
+  display: inline-block;
+  margin: 10px 32px 0 0;
+}
+
+.border {
+  margin: 48px auto;
+  border-bottom: 3px solid rgb(105,126,198);
+}
+
+.bat{
+  float: right;
+}
+
+.bat a {
+  color: white;
+  background-color: rgb(142,161,226);
+}
