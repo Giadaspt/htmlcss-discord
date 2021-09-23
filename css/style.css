@@ -213,6 +213,11 @@ h5 {
   font-size: 18px;
 }
 
+.foot ul li {
+  list-style: none;
+  margin: 10px;
+}
+
 .foot>p {
   font-size: 14px;
   margin: 12px 20px 0 0 ;
@@ -225,7 +230,7 @@ h5 {
 
 .icon {
   display: inline-block;
-  margin: 10px 32px 0 0;
+  margin: 10px 0;
 }
 
 .border {
